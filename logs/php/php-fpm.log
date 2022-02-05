@@ -1,0 +1,42 @@
+[31-Jan-2022 22:27:06] NOTICE: fpm is running, pid 170254
+[31-Jan-2022 22:27:06] NOTICE: ready to handle connections
+[31-Jan-2022 22:36:16] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
+[31-Jan-2022 22:36:16] ERROR: FPM initialization failed
+[31-Jan-2022 22:36:16] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
+[31-Jan-2022 22:36:16] ERROR: FPM initialization failed
+[31-Jan-2022 22:36:17] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
+[31-Jan-2022 22:36:17] ERROR: FPM initialization failed
+[31-Jan-2022 22:36:18] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
+[31-Jan-2022 22:36:18] ERROR: FPM initialization failed
+[01-Feb-2022 02:01:13] NOTICE: Terminating ...
+[01-Feb-2022 02:01:13] NOTICE: exiting, bye-bye!
+[01-Feb-2022 21:34:56] NOTICE: fpm is running, pid 49320
+[01-Feb-2022 21:34:56] NOTICE: ready to handle connections
+[03-Feb-2022 21:06:21] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
+[03-Feb-2022 21:06:21] ERROR: FPM initialization failed
+[03-Feb-2022 21:06:22] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
+[03-Feb-2022 21:06:22] ERROR: FPM initialization failed
+[03-Feb-2022 21:06:22] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
+[03-Feb-2022 21:06:22] ERROR: FPM initialization failed
+[03-Feb-2022 21:06:23] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
+[03-Feb-2022 21:06:23] ERROR: FPM initialization failed
+[03-Feb-2022 22:51:20] NOTICE: Terminating ...
+[03-Feb-2022 22:51:20] NOTICE: exiting, bye-bye!
+[04-Feb-2022 21:25:22] NOTICE: fpm is running, pid 21173
+[04-Feb-2022 21:25:23] NOTICE: ready to handle connections
+[05-Feb-2022 11:34:37] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
+[05-Feb-2022 11:34:37] ERROR: FPM initialization failed
+[05-Feb-2022 11:34:37] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
+[05-Feb-2022 11:34:37] ERROR: FPM initialization failed
+[05-Feb-2022 11:34:38] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
+[05-Feb-2022 11:34:38] ERROR: FPM initialization failed
+[05-Feb-2022 11:34:38] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
+[05-Feb-2022 11:34:38] ERROR: FPM initialization failed
+[05-Feb-2022 20:55:10] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
+[05-Feb-2022 20:55:10] ERROR: FPM initialization failed
+[05-Feb-2022 20:55:11] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
+[05-Feb-2022 20:55:11] ERROR: FPM initialization failed
+[05-Feb-2022 20:55:11] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
+[05-Feb-2022 20:55:11] ERROR: FPM initialization failed
+[05-Feb-2022 20:55:12] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
+[05-Feb-2022 20:55:12] ERROR: FPM initialization failed

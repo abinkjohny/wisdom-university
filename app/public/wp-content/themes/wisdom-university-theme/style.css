@@ -1,0 +1,17 @@
+/*
+Theme Name: Wisdom University Theme
+Author: Abin K Johny    
+version: 1.0
+*/
+
+.Head1 {
+    border: 2px solid rgb(248, 171, 255);
+}
+
+.post-heading {
+    border: 2px solid rgb(235, 110, 9);
+}
+
+.post-content {
+    border: 2px solid rgb(0, 238, 255);
+}

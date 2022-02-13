@@ -7,7 +7,13 @@
         <div class="group">
           <div class="site-footer__col-one">
             <h1 class="school-logo-text school-logo-text--alt-color">
-              <a href="#"><strong>Wisdom</strong> University</a>
+            <a href="<?php echo get_site_url(); ?>">
+                <?php 
+                    $title = get_bloginfo('name');
+                    $split_title = preg_split("/( |-|,)/", $title);
+                ?>
+                <strong><?php echo $split_title[0]; ?></strong> <?php echo $split_title[1]; ?>
+            </a>
             </h1>
             <p><a class="site-footer__link" href="#">123.456.7890</a></p>
           </div>

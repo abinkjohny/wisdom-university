@@ -332,3 +332,42 @@
 [10-Feb-2022 08:07:08 UTC] PHP  10. wpdb->__construct() /home/ezio/Local Sites/wisdom-university/app/public/wp-includes/load.php:561
 [10-Feb-2022 08:07:08 UTC] PHP  11. wpdb->db_connect() /home/ezio/Local Sites/wisdom-university/app/public/wp-includes/wp-db.php:724
 [10-Feb-2022 08:07:08 UTC] PHP  12. mysqli_real_connect() /home/ezio/Local Sites/wisdom-university/app/public/wp-includes/wp-db.php:1756
+[12-Feb-2022 15:26:36 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/ezio/Local Sites/wisdom-university/app/public/wp-includes/wp-db.php on line 1756
+[12-Feb-2022 15:26:36 UTC] PHP Stack trace:
+[12-Feb-2022 15:26:36 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Feb-2022 15:26:36 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Feb-2022 15:26:36 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Feb-2022 15:26:36 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Feb-2022 15:26:36 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[12-Feb-2022 15:26:36 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[12-Feb-2022 15:26:36 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[12-Feb-2022 15:26:36 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[12-Feb-2022 15:26:36 UTC] PHP   9. require_wp_db() /home/ezio/Local Sites/wisdom-university/app/public/wp-settings.php:124
+[12-Feb-2022 15:26:36 UTC] PHP  10. wpdb->__construct() /home/ezio/Local Sites/wisdom-university/app/public/wp-includes/load.php:561
+[12-Feb-2022 15:26:36 UTC] PHP  11. wpdb->db_connect() /home/ezio/Local Sites/wisdom-university/app/public/wp-includes/wp-db.php:724
+[12-Feb-2022 15:26:36 UTC] PHP  12. mysqli_real_connect() /home/ezio/Local Sites/wisdom-university/app/public/wp-includes/wp-db.php:1756
+[12-Feb-2022 15:26:39 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/ezio/Local Sites/wisdom-university/app/public/wp-includes/wp-db.php on line 1756
+[12-Feb-2022 15:26:39 UTC] PHP Stack trace:
+[12-Feb-2022 15:26:39 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Feb-2022 15:26:39 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Feb-2022 15:26:39 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Feb-2022 15:26:39 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Feb-2022 15:26:39 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:77
+[12-Feb-2022 15:26:39 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[12-Feb-2022 15:26:39 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1192
+[12-Feb-2022 15:26:39 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1271
+[12-Feb-2022 15:26:39 UTC] PHP   9. require_wp_db() /home/ezio/Local Sites/wisdom-university/app/public/wp-settings.php:124
+[12-Feb-2022 15:26:39 UTC] PHP  10. wpdb->__construct() /home/ezio/Local Sites/wisdom-university/app/public/wp-includes/load.php:561
+[12-Feb-2022 15:26:39 UTC] PHP  11. wpdb->db_connect() /home/ezio/Local Sites/wisdom-university/app/public/wp-includes/wp-db.php:724
+[12-Feb-2022 15:26:39 UTC] PHP  12. mysqli_real_connect() /home/ezio/Local Sites/wisdom-university/app/public/wp-includes/wp-db.php:1756
+[12-Feb-2022 15:26:43 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/ezio/Local Sites/wisdom-university/app/public/wp-includes/wp-db.php on line 1756
+[12-Feb-2022 15:26:43 UTC] PHP Stack trace:
+[12-Feb-2022 15:26:43 UTC] PHP   1. {main}() /home/ezio/Local Sites/wisdom-university/app/public/wp-admin/index.php:0
+[12-Feb-2022 15:26:43 UTC] PHP   2. require_once() /home/ezio/Local Sites/wisdom-university/app/public/wp-admin/index.php:10
+[12-Feb-2022 15:26:43 UTC] PHP   3. require_once() /home/ezio/Local Sites/wisdom-university/app/public/wp-admin/admin.php:34
+[12-Feb-2022 15:26:43 UTC] PHP   4. require_once() /home/ezio/Local Sites/wisdom-university/app/public/wp-load.php:50
+[12-Feb-2022 15:26:43 UTC] PHP   5. require_once() /home/ezio/Local Sites/wisdom-university/app/public/wp-config.php:77
+[12-Feb-2022 15:26:43 UTC] PHP   6. require_wp_db() /home/ezio/Local Sites/wisdom-university/app/public/wp-settings.php:124
+[12-Feb-2022 15:26:43 UTC] PHP   7. wpdb->__construct() /home/ezio/Local Sites/wisdom-university/app/public/wp-includes/load.php:561
+[12-Feb-2022 15:26:43 UTC] PHP   8. wpdb->db_connect() /home/ezio/Local Sites/wisdom-university/app/public/wp-includes/wp-db.php:724
+[12-Feb-2022 15:26:43 UTC] PHP   9. mysqli_real_connect() /home/ezio/Local Sites/wisdom-university/app/public/wp-includes/wp-db.php:1756

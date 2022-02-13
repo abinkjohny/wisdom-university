@@ -66,3 +66,7 @@
 [10-Feb-2022 13:37:07] ERROR: FPM initialization failed
 [10-Feb-2022 13:37:08] ERROR: Another FPM instance seems to already listen on /home/ezio/.config/Local/run/qoStRQ3q5/php/php-fpm.socket
 [10-Feb-2022 13:37:08] ERROR: FPM initialization failed
+[12-Feb-2022 13:40:32] NOTICE: Terminating ...
+[12-Feb-2022 13:40:32] NOTICE: exiting, bye-bye!
+[12-Feb-2022 20:56:39] NOTICE: fpm is running, pid 25801
+[12-Feb-2022 20:56:40] NOTICE: ready to handle connections

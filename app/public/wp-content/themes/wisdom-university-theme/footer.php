@@ -24,9 +24,9 @@
               <nav class="nav-list">
                 <ul>
                   <li><a href="/about-us">About Us</a></li>
-                  <li><a href="#">Programs</a></li>
-                  <li><a href="#">Events</a></li>
-                  <li><a href="#">Campuses</a></li>
+                  <li><a href="/programs">Programs</a></li>
+                  <li><a href="/events">Events</a></li>
+                  <li><a href="/campuses">Campuses</a></li>
                 </ul>
               </nav>
             </div>

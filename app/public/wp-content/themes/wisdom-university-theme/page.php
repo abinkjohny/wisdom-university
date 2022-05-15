@@ -56,11 +56,11 @@ while(have_posts()) {
               //7.3 and later
               if ($key === array_key_first($childPages)) {
           ?>
-                <li <?php if(get_the_ID() == $childPage->ID)  ?>><a href="<?php echo get_the_permalink($childPage->ID); ?>"><?php echo get_the_title($childPage->ID); ?></a></li>
+                <li <?php if(get_the_ID() == $childPage->ID) {echo 'class="current_page_item"';} ?>><a href="<?php echo get_the_permalink($childPage->ID); ?>"><?php echo get_the_title($childPage->ID); ?></a></li>
               <?php
               } else {
               ?>
-                <li <?php if(get_the_ID() == $childPage->ID)  ?>><a href="<?php echo get_the_permalink($childPage->ID); ?>"><?php echo get_the_title($childPage->ID); ?></a></li>
+                <li <?php if(get_the_ID() == $childPage->ID) {echo 'class="current_page_item"';} ?>><a href="<?php echo get_the_permalink($childPage->ID); ?>"><?php echo get_the_title($childPage->ID); ?></a></li>
               <?php
               }
             } catch (\Throwable $th) {
@@ -71,11 +71,11 @@ while(have_posts()) {
               reset($childPages);
               if ($key === key($childPages)) {
               ?>
-                <li <?php if(get_the_ID() == $childPage->ID)  ?>><a href="<?php echo get_the_permalink($childPage->ID); ?>"><?php echo get_the_title($childPage->ID); ?></a></li>
+                <li <?php if(get_the_ID() == $childPage->ID) {echo 'class="current_page_item"';} ?>><a href="<?php echo get_the_permalink($childPage->ID); ?>"><?php echo get_the_title($childPage->ID); ?></a></li>
               <?php
               }
               ?>
-              <li <?php if(get_the_ID() == $childPage->ID)  ?>><a href="<?php echo get_the_permalink($childPage->ID); ?>"><?php echo get_the_title($childPage->ID); ?></a></li>
+              <li <?php if(get_the_ID() == $childPage->ID) {echo 'class="current_page_item"';} ?>><a href="<?php echo get_the_permalink($childPage->ID); ?>"><?php echo get_the_title($childPage->ID); ?></a></li>
           <?php
             }
           }

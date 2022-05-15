@@ -33,11 +33,11 @@
             <div class="site-footer__col-three">
               <h3 class="headline headline--small">Learn</h3>
               <nav class="nav-list">
-                <ul>
-                  <li><a href="#">Legal</a></li>
-                  <li><a href="/privacy-policy">Privacy</a></li>
-                  <li><a href="#">Careers</a></li>
-                </ul>
+              <?php 
+                  wp_nav_menu(array(
+                    'theme_location' => 'footerMenuLocation'
+                  ));                
+                ?>
               </nav>
             </div>
           </div>

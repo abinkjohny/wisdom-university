@@ -8,10 +8,14 @@ function university_post_types() {
             'singular_name' => 'Event',
             'add_new_item' => 'Add New Event'
         ),
-        'menu_icon' => 'dashicons-calandar',
+        'menu_icon' => 'dashicons-calendar',
         'public' => true,
-        'has_archive' => true
+        'has_archive' => true,
+        'rewrite' => array('slug' => 'events')
         
     ));
 }
+
+add_action('init', 'university_post_types');
+
 ?>
